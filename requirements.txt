@@ -6,3 +6,4 @@ pyod
 flask
 solara
 streamlit
+ploltly
