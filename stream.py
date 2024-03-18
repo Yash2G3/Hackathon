@@ -5,6 +5,7 @@ from plotly.subplots import make_subplots
 import pandas as pd
 import numpy as np
 import joblib
+from joblib import load
 
 
 def filter_bank_data(df=pd.DataFrame) -> pd.DataFrame:
@@ -163,7 +164,7 @@ def main():
             df_new = check_amount_and_sum(df_new)
 
             # Load the Isolation Forest model from the joblib file
-            loaded_model = joblib.load('training_notebooks\clf.joblib')
+            loaded_model = joblib.load('training_notebooks/clf.joblib')
 
             # Extract the relevant features from the new data
             X_new = df_new[['count_5days', 'sum_5days']]
