@@ -4,5 +4,5 @@ matplotlib
 seaborn
 pyod
 streamlit
-ploltly
+plotly
 joblib
