@@ -1,6 +1,7 @@
 # Hack-O-Hire
 
 # Website Link: https://hackathon-hack.streamlit.app/
+#Note: Please use the given mystatements.csv file given in the data folder to see this project work
 
 ## Problem Statement
 
